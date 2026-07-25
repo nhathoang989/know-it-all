@@ -48,6 +48,7 @@ export default function App() {
     };
 
     const handleTimeUpdate = () => {
+      if (!video || !video.duration || isNaN(video.duration) || !isFinite(video.duration)) return;
       const remaining = video.duration - video.currentTime;
       if (remaining <= 0.55 && !isFadingOutRef.current && video.duration > 0) {
         isFadingOutRef.current = true;
