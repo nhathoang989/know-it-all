@@ -1,0 +1,6 @@
+{
+  "name": "Asme Landing Page",
+  "description": "An elegant, highly immersive, and interactive single-page landing site for Asme, featuring liquid glass aesthetics and curated video sections.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
